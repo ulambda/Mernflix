@@ -1,0 +1,169 @@
+.topnav{
+    width:100%;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+
+    transition: ease-in-out 0.1s;
+}
+
+.scrolled {
+    background-color: #1f1e1e;
+    transition: ease-in-out 0.1s;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+.left{
+    float: left;
+    width: 20%;
+    background-color: transparent;
+    display: flex;
+    text-align: left;
+    padding-top: 0.1%;
+    padding-left: 10px;
+    
+}
+
+.middle{
+    width: 50%;
+    background-color: tr;
+    text-align: center;
+
+}
+
+.right{
+    width: 20%;
+    background-color: transparent;
+    padding: 0.5rem;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.hamburgerBtn{
+    outline: none;
+    border: none;
+    border-radius:100% ;
+    width: 40px;
+    height: 40px;
+
+    padding-top: 5px;
+    padding-left: 1px;
+
+    color: white;
+    overflow: hidden;
+
+    margin-top: 3px;
+    user-select: none;
+}
+
+.hamburgerBtn:hover{
+    background-color: rgb(104, 104, 104);
+    cursor: pointer;
+}   
+
+.logo{
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.logo p{
+    color: red;
+
+    font-size: 1.5rem;
+    margin-top: -2px;
+    margin-left: 5px;
+    font-size: 20px;
+    
+}
+
+.searchContainer{
+    width: 50%;
+    background-color: transparent;
+
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.searchContainer .searchBar{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #0a0a0a;
+    color: white;
+}
+
+.searchContainer .searchBar::placeholder{
+    color: rgb(110, 109, 109);
+}
+
+.searchContainer .searchBtn{
+    position: absolute;
+    
+    top: 5px;
+    
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    overflow: hidden;
+    user-select: none;
+}
+
+.searchContainer .searchBtn span{
+
+    position: relative;
+    top:2px;
+    
+}
+
+.searchContainer .searchBtn:hover{
+    background-color: rgb(104, 104, 104);
+    cursor: pointer;
+}
+
+.breadcrumbs{
+    width: 50%;
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    padding-left: 10px;
+    
+
+}
+
+.crumb{
+    color: rgb(226, 226, 226);
+    background-color: transparent;
+
+    border-radius: 100px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

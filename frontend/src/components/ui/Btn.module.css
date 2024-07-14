@@ -1,0 +1,52 @@
+.SolidBtn{
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.ClearBtn{
+    background-color: transparent;
+    color: #f8f9fa;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    margin: 2px;
+    transition: ease-in-out 0.1s;
+
+}
+
+.ClearBtn:hover{
+    background-color: #3f3f3f;
+    cursor: pointer;
+
+    transition: ease-in-out 0.1s;
+}
+
+.CircleIconBtn{
+    outline: none;
+    border: none;
+    border-radius:100% ;
+    width: 40px;
+    height: 40px;
+
+    padding-top: 5px;
+    padding-left: 1px;
+
+    color: white;
+    overflow: hidden;
+
+    margin-top: 3px;
+    user-select: none;
+}
+
+.circleIconBtn:hover{
+    background-color: rgb(104, 104, 104);
+    cursor: pointer;
+}   

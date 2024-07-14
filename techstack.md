@@ -1,0 +1,8 @@
+- react
+- mongodb
+- express
+- nodejs
+- react router rom
+- zustand
+- tailwind
+- typescript

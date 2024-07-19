@@ -1,0 +1,11 @@
+.coverCard{
+    background-color: rgb(75, 75, 75);
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+    
+}
+
+.coverCard img{
+    width: auto;
+}

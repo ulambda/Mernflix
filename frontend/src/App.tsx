@@ -4,6 +4,7 @@ import titleStore from 'store/title';
 
 import TopNav from 'components/nav/TopNav';
 import SideNav from 'components/nav/SideNav';
+import DimOverlay from 'components/nav/DimOverlay';
 
 
 import HomePage from 'pages/HomePage';

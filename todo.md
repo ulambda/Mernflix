@@ -1,0 +1,6 @@
+- sign up and in page
+- user auth
+- cover css
+- search filters
+- home page design
+- watch page

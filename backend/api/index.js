@@ -1,7 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
-const testRoutes = require('./routes/test.js')
+const userRoutes = require('./routes/user.js')
 const app = express() //express app
 
 //middleware
@@ -12,14 +12,14 @@ app.use((request, response, next)=>{
 })
 
 //routes
-app.get('/', (request, response) => {response.json('welcome to the api.')})
-app.use('/test', testRoutes)
+app.get('/', (req, res) => res.json('welcome to the api.'))
+app.use('/api/user', userRoutes)
 
 
 
 //connect to mongodb
 mongoose.connect(process.env.URI)
-.then(()=>{ app.listen(process.env.PORT, () => {console.log('listening on port ' + process.env.PORT)})})
+.then(()=>{ app.listen(process.env.PORT, () => {console.log('api running on http://localhost:' + process.env.PORT)})})
 .catch((error)=>{console.log(error)})
 
 

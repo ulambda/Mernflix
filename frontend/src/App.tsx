@@ -10,6 +10,9 @@ import DimOverlay from 'components/nav/DimOverlay';
 import HomePage from 'pages/HomePage';
 import SearchPage from 'pages/SearchPage';
 import WatchPage from 'pages/WatchPage';
+import SignInPage from 'pages/SignInPage';
+import RegisterPage from 'pages/RegisterPage';
+
 
 function RootLayout() {
   
@@ -32,8 +35,8 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path="/search" element={<SearchPage/>}/>
     <Route path="/search/:query" element={<SearchPage/>}/>
     <Route path="/watch/:title/:ep" element={<WatchPage/>}/>
-    <Route path="/login" element={<h1>Login</h1>}/>
-    <Route path="/register" element={<h1>Register</h1>}/>
+    <Route path="/login" element={<SignInPage/>}/>
+    <Route path="/register" element={<RegisterPage/>}/>
     <Route path="*" element={<h1>404</h1>}/>
   </Route>
 ));
